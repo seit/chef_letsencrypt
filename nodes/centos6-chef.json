@@ -1,0 +1,8 @@
+{
+  "run_list": [
+    "recipe[ssh]"
+  ],
+  "automatic": {
+    "ipaddress": "centos6-chef"
+  }
+}

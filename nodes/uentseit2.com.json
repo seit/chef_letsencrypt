@@ -1,0 +1,9 @@
+{
+  "run_list": [
+    "recipe[apache]",
+    "recipe[certbot]"
+  ],
+  "automatic": {
+    "ipaddress": "uentseit2.com"
+  }
+}
